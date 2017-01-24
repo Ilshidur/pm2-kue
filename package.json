@@ -1,0 +1,34 @@
+{
+  "name": "pm2-kue",
+  "version": "0.0.1",
+  "description": "PM2 module to monitor kue jobs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilshidur/pm2-kue.git"
+  },
+  "keywords": [
+    "pm2",
+    "pmx",
+    "monit",
+    "kue",
+    "queue",
+    "schedule",
+    "redis"
+  ],
+  "author": "Ilshidur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ilshidur/pm2-kue/issues"
+  },
+  "homepage": "https://github.com/Ilshidur/pm2-kue#readme",
+  "dependencies": {
+    "pmx": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0"
+  }
+}
