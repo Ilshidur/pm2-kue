@@ -8,6 +8,14 @@
 
 This module aims to provide a minimalistic overview of the current jobs. If you want more details about your queues, check **[kue-ui](https://github.com/stonecircle/kue-ui)**.
 
+## Installation
+
+Run :
+
+```bash
+pm2 install pm2-kue
+```
+
 ## LICENSE
 
 **MIT License**
