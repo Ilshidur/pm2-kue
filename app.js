@@ -1,4 +1,6 @@
 var pmx = require('pmx');
+var queues = require('./probes/queues.js');
+var actions = require('./probes/actions.js');
 
 pmx.initModule({
   widget: {
@@ -12,8 +14,8 @@ pmx.initModule({
     // 2 = main border
     // 3 = secondary border
     theme: [
-      '#111111',
-      '#1B2228',
+      '#8f6300',
+      '#28271b',
       '#807C7C',
       '#807C7C',
     ],
@@ -43,7 +45,10 @@ pmx.initModule({
 
       // Name of custom metrics to be displayed as a "major metrics"
       main_probes: [
-        'Processes'
+        'Complete queues',
+        'Active queues',
+        'Inactive queues',
+        'Failed queues',
       ],
     }
   }
@@ -51,5 +56,7 @@ pmx.initModule({
   /*
     Module entry
    */
-  console.log(conf);
+
+  queues.init(conf);
+  actions.init(conf);
 });

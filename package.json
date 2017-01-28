@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "PM2 module to monitor kue jobs",
   "main": "app.js",
+  "config": {
+    "small_interval": "1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +29,7 @@
   },
   "homepage": "https://github.com/Ilshidur/pm2-kue#readme",
   "dependencies": {
+    "kue": "^0.11.5",
     "pmx": "^1.0.1"
   },
   "devDependencies": {
