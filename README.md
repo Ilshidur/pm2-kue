@@ -1,6 +1,7 @@
 # pm2-kue
 
 [![stability](https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square)](https://nodejs.org/api/documentation.html#documentation_stability_index)
+[![Known Vulnerabilities](https://snyk.io/test/npm/pm2-kue/badge.svg)](https://snyk.io/test/npm/pm2-kue)
 
 [PM2 module](https://app.keymetrics.io) to monitor **[kue](https://www.npmjs.com/package/kue)** jobs.
 
