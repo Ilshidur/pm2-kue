@@ -1,9 +1,12 @@
 # pm2-kue
 
 [![stability](https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square)](https://nodejs.org/api/documentation.html#documentation_stability_index)
+[![npm](https://img.shields.io/npm/dt/pm2-kue.svg)](https://nodei.co/npm/pm2-kue)
 [![Known Vulnerabilities](https://snyk.io/test/npm/pm2-kue/badge.svg)](https://snyk.io/test/npm/pm2-kue)
 
-[PM2 module](https://app.keymetrics.io) to monitor **[kue](https://www.npmjs.com/package/kue)** jobs.
+[![NPM](https://nodei.co/npm/pm2-kue.png?downloads=true&downloadRank=true)](https://nodei.co/npm/pm2-kue)
+
+> [PM2 module](https://app.keymetrics.io) to monitor **[kue](https://www.npmjs.com/package/kue)** jobs.
 
 ![pm2-kue](preview.png)
 
