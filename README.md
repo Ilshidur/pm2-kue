@@ -1,10 +1,14 @@
 # pm2-kue
 
 [![stability](https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square)](https://nodejs.org/api/documentation.html#documentation_stability_index)
-[![npm](https://img.shields.io/npm/dt/pm2-kue.svg)](https://nodei.co/npm/pm2-kue)
-[![Known Vulnerabilities](https://snyk.io/test/npm/pm2-kue/badge.svg)](https://snyk.io/test/npm/pm2-kue)
 
-[![NPM](https://nodei.co/npm/pm2-kue.png?downloads=true&downloadRank=true)](https://nodei.co/npm/pm2-kue)
+[![npm version][version-badge]][version-url]
+[![Known Vulnerabilities][vulnerabilities-badge]][vulnerabilities-url]
+[![dependency status][dependency-badge]][dependency-url]
+[![devdependency status][devdependency-badge]][devdependency-url]
+[![downloads][downloads-badge]][downloads-url]
+
+[![NPM][npm-stats-badge]][npm-stats-url]
 
 > [PM2 module](https://app.keymetrics.io) to monitor **[kue](https://www.npmjs.com/package/kue)** jobs.
 
@@ -43,3 +47,16 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[version-badge]: https://img.shields.io/npm/v/pm2-kue.svg
+[version-url]: https://www.npmjs.com/package/pm2-kue
+[vulnerabilities-badge]: https://snyk.io/test/npm/pm2-kue/badge.svg
+[vulnerabilities-url]: https://snyk.io/test/npm/pm2-kue
+[dependency-badge]: https://david-dm.org/ilshidur/pm2-kue.svg
+[dependency-url]: https://david-dm.org/ilshidur/pm2-kue
+[devdependency-badge]: https://david-dm.org/ilshidur/pm2-kue/dev-status.svg
+[devdependency-url]: https://david-dm.org/ilshidur/pm2-kue#info=devDependencies
+[downloads-badge]: https://img.shields.io/npm/dt/pm2-kue.svg
+[downloads-url]: https://www.npmjs.com/package/pm2-kue
+[npm-stats-badge]: https://nodei.co/npm/pm2-kue.png?downloads=true&downloadRank=true
+[npm-stats-url]: https://nodei.co/npm/pm2-kue
