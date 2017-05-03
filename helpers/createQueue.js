@@ -1,9 +1,7 @@
 var kue = require('kue');
 
 function createQueue(conf) {
-  var kueConf = {
-    prefix: conf.kue_prefix || 'q'
-  };
+  var kueConf = {};
 
   if (conf.kue_redis_host) {
     kueConf.redis = {
