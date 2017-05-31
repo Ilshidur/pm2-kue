@@ -1,6 +1,6 @@
 # pm2-kue
 
-![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 [![npm version][version-badge]][version-url]
 [![Known Vulnerabilities][vulnerabilities-badge]][vulnerabilities-url]
@@ -11,6 +11,12 @@
 [![NPM][npm-stats-badge]][npm-stats-url]
 
 > [PM2 module](https://app.keymetrics.io) to monitor **[kue](https://www.npmjs.com/package/kue)** jobs.
+
+<p align="center">== DISCLAIMER ! ==</p>
+
+This project is unmaintained. The reason why is that I was developing this PM2 module with the purpose to visualize datas in the [Keymetrics](https://app.keymetrics.io) dashboard. Now that [**Keymetrics restricted the amount of visible processes**](https://keymetrics.io/pricing) (also, PM2 modules), I don't see why I should maintain something that can only be available to paid Keymetrics users.
+
+I maybe will restart this project once a full and free (or maybe **LESS EXPENSIVE**) Keymetrics alternative gets released.
 
 ![pm2-kue](preview.png)
 
